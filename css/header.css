@@ -1,0 +1,20 @@
+.header {
+    height: 60px;
+}
+
+.logo {
+    display: block;
+    width: 50px;
+    margin: auto;
+    height: 60px;
+}
+
+.logo a {
+    color: #00b8bf;
+}
+
+.logo h1 {
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Zilla Slab', serif;
+}

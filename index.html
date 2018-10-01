@@ -1,24 +1,61 @@
 <!doctype html>
 <html>
-<head><link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
-<title>Seong's Web Emporium</title>
-<style>
-* {
-  font-family: 'Sansita', sans-serif;
-  text-align: center;
-}
-a {
-  text-decoration: none;
-  padding-bottom: 20px;
-}
-</style>
+
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!--ensures correct mobile responsive resizing-->
+    <meta charset="UTF-8">
+    <title>Seong-Hyun Ryoo</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
 </head>
 
 <body>
-<h1>Seong's mini web portfolio! </h1>
-<p>Projects:</p>
-  <a href="http://gjcl.org">GJCL.org (Oct 2017-Apr 2018)</a><br>
-  <a href="http://farmabowl.com">farmabowl.com (Feb 2018-Apr 2018)</a><br>
-  <a href="http://cottontrek.itch.io">Independent Game Development (Aug 2014-Present)</a>
+    <div class="container">
+        <div id="header-holder"></div>
+        <div class="intro">
+            <p>Hi! My name is Seong-Hyun Ryoo. I'm interested in UI/UX design and interactive art.</p>
+        </div>
+        <div class="space"></div>
+        <div class="mid-header">I like making websites.</div>
+        <div class="card-holder">
+            <div class="card"><a href="https://gjcl.org">
+                <img src="images/roberta.jpg">
+                <h1>GJCL.org</h1>
+                <p>Redesigning the GJCL's official website</p></a>
+            </div>
+            <div class="card"><a href="https://farmabowl.com">
+                <img src="images/roberta.jpg">
+                <h1>farmabowl.com</h1>
+                <p>An e-commerce storefront for the hungry</p></a>
+            </div>
+        </div>
+        <div class="space"></div>
+        <div class="mid-header">I love designing video games!</div>
+        <div class="card-holder">
+            <div class="card"><a href="">
+                <img src="images/roberta.jpg">
+                <h1>Arcadian Dreams</h1>
+                <p>An interactive journey through arcade history</p></a>
+            </div>
+            <div class="card"><a href="">
+                <img src="images/roberta.jpg">
+                <h1>Independent Game Development</h1>
+                <p>5 years of hackathons and personal projects</p></a>
+            </div>
+        </div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <!--important! jQuery script CDN-->
+    <script>
+        $(function() {
+            $('#header-holder').load('reuse/reuse-header.html');
+        });
+
+    </script>
 </body>
+
+
+
 </html>
