@@ -100,10 +100,10 @@ i {
     height: 380px;
     text-decoration: none;
     color: inherit;
-    -webkit-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    transition: 0.5s all;
+    -webkit-transition: 0.5s padding-top;
+    -ms-transition: 0.5s padding-top;
+    -moz-transition: 0.5s padding-top;
+    transition: 0.5s padding-top;
     padding: 15px;
 }
 
@@ -148,10 +148,10 @@ i {
     z-index: 20;
     position: relative;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);   
-    -webkit-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    transition: 0.5s all;
+    -webkit-transition: 0.5s box-shadow;
+    -ms-transition: 0.5s box-shadow;
+    -moz-transition: 0.5s box-shadow;
+    transition: 0.5s box-shadow;
     margin-bottom: 20px;
 }
 
@@ -163,6 +163,9 @@ i {
     font-size: 24px;
     margin: 10px 0;
     opacity: .5;
+    -webkit-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all;
     transition: 0.5s all;
 }
 
@@ -171,5 +174,8 @@ i {
     font-weight: bold;
     margin: 5px 0;
     opacity: .4;
+    -webkit-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all;
     transition: 0.5s all;
 }
