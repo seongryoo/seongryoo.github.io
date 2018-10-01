@@ -35,6 +35,21 @@ i {
     text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+    .intro {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 501px) {
+    * {
+        color: green; !important
+    }
+    .intro {
+        font-size: 40px;
+    }
+}
+
 .tab-top{
     width: 100%;
     height: 350px;
@@ -60,32 +75,52 @@ i {
     display: flex;
     flex-wrap: wrap;
 	justify-content: space-between;
+    flex-direction: column;
 }
 
 .card {
     flex: 1 1 0;
+    margin-bottom: 20px;
 }
 
+@media screen and (min-width: 700px) {
+    .card-holder {
+        flex-direction: row;
+        height: 380px;
+    }
+    
+    .card {
+        margin-bottom: 0; 
+    }
+}
+
+
+
 .card a {
-    margin: 5px;
-    display: block;
+    width: 100%;
+    display: inline-block;
     border-radius: 8px;
     height: 380px;
     text-decoration: none;
     color: inherit;
-    padding: 15px;
-    padding-top: 15px;
-    margin-bottom: 0;
+    -webkit-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all;
     transition: 0.5s all;
+    padding: 15px;
 }
 
-.card a:hover{
-    padding-top: 5px;
-    padding-bottom: 10px;
+@media screen and (min-width: 700px) {
+    .card a:hover {
+        padding-top: 5px;
+    }
 }
 
 .card a:hover img {
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .card a:hover p {
@@ -97,9 +132,34 @@ i {
     opacity: 1;
     color: #00b8bf;
 }
-.card img {
+.card .img-holder img {
     width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: 50% 0;
+    -webkit-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all;
     transition: 0.5s all;
+}
+
+.card .img-holder {
+    width: 100%;
+    border-radius: 8px;
+    height: 280px;
+    overflow: hidden;
+    z-index: 20;
+    position: relative;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);   
+    -webkit-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    margin-bottom: 20px;
+}
+
+.card a:hover .img-holder {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .card h1 {
