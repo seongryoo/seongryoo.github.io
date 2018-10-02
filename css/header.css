@@ -14,22 +14,34 @@
 }
 
 .logo a h1 {
-    -ms-transition: .25s all;
-    -moz-transition: .25s all;
-    -webkit-transition: .25s all;
-    transition: .25s all;
-    color: #029ea3;
+    color: #00b8bf;
 }
 
 .logo a:hover h1{
-    -ms-transform: skew(-20deg, 0);
-    -moz-transform: skew(-20deg, 0);
-    -webkit-transform: skew(-20deg, 0);
-    transform: skew(-20deg, 0);
+    text-decoration: underline;
 }
 
 .logo h1 {
     font-weight: bold;
     font-size: 48px;
     font-family: 'Varela Round', serif;
+    display: inline-block;
+}
+
+.red-dot {
+    color: #eb8787;
+    position: absolute;
+    animation-duration: .7s;
+    animation-name: bounce;
+    animation-timing-function: cubic-bezier(.19,.2,.86,.7);
+}
+
+@keyframes bounce {
+    0% {top: 10px; opacity: 0;}
+    24% {top: 32px;}
+    44% {top: 20px;}
+    68% {top: 32px; opacity: 1;}
+    80% {top: 28px;}
+    100% {top: 32px;}
+    
 }
