@@ -44,15 +44,29 @@ i {
     text-align: center;
 }
 
+.space {
+    height: 60px;
+}
+
 @media screen and (max-width: 500px) {
     .intro {
-        font-size: 32px;
+        font-size: 24px;
+        line-height: 38px;
+        width: 100%;
+    }
+    .space {
+        height: 20px;
+    }
+    .container {
+        padding: 20px;
     }
 }
 
 @media screen and (max-width: 700px) and (min-width: 501px) {
     .intro {
-        font-size: 40px;
+        font-size: 32px;
+        line-height: 42px;
+        width: 95%;
     }
 }
 
@@ -64,9 +78,7 @@ i {
     z-index: -60;
 }
 
-.space {
-    height: 60px;
-}
+
 .mid-header {
     text-align: center;
     margin: 30px;
@@ -191,4 +203,8 @@ i {
 
 .name {
     display: inline-block;
+}
+
+.card.empty {
+    height: 0;
 }
