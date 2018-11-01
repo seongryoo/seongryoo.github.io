@@ -1,0 +1,49 @@
+* {
+  color: white;  
+  background-color: black; !important
+}
+.img-header {
+    position: absolute;
+    top: 0;
+    width: 90%;
+    max-width: 500px;
+    object-fit: cover;
+    height: 400px;
+    object-position: top;
+}
+.container {
+    background-color: rgba(0,0,0,0);
+}
+
+.project-description {
+    margin-top: 240px;
+    box-shadow: 0 0 250px 100px black;
+    z-index: 10;
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+}
+.project-description p {
+    opacity: .8;
+    margin-top: 12px;
+}
+
+.header {
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    z-index: 100;
+}
+
+.header .red-dot {
+    top: 0;
+    opacity: 1;
+    animation: none;
+}
+
+.card img {
+    border: 1px solid gray;
+    height: auto;
+    max-height: 500px;
+    object-fit: scale-down;
+    
+}
