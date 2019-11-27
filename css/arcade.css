@@ -1,4 +1,4 @@
-* {
+body.dark {
   color: white;  
   background-color: black; !important
 }
@@ -7,8 +7,10 @@
     top: 0;
     width: 90%;
     max-width: 500px;
+    -o-object-fit: cover;
     object-fit: cover;
     height: 400px;
+    -o-object-position: top;
     object-position: top;
 }
 .container {
@@ -17,11 +19,16 @@
 
 .project-description {
     margin-top: 240px;
-    box-shadow: 0 0 250px 100px black;
     z-index: 10;
     position: relative;
     width: 90%;
     max-width: 500px;
+    -webkit-box-shadow: 0 0 250px 100px white;
+    box-shadow: 0 0 250px 100px white;
+}
+body.dark .project-description {
+    -webkit-box-shadow: 0 0 250px 100px black;
+    box-shadow: 0 0 250px 100px black;
 }
 .project-description p {
     opacity: .8;
@@ -37,6 +44,7 @@
 .header .red-dot {
     top: 0;
     opacity: 1;
+    -webkit-animation: none;
     animation: none;
 }
 
@@ -44,6 +52,7 @@
     border: 1px solid gray;
     height: auto;
     max-height: 500px;
+    -o-object-fit: scale-down;
     object-fit: scale-down;
     
 }
