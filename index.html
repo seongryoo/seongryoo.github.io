@@ -1,119 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <!--ensures correct mobile responsive resizing-->
-  <meta charset="UTF-8">
-  <title>Seong-Hyun Ryoo</title>
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/header.css" rel="stylesheet">
-  <link href="aos/dist/aos.css" rel="stylesheet">
+	<title>Seong-Hyun Ryoo's Portfolio</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
-  <script src="aos/dist/aos.js"></script>
-  <script>
-    AOS.init();
+	<header class="hero contained">
+		<div class="heading">
+			<h1>Hi! I’m <span class="name">Seong-Hyun Ryoo.</span> I love CSS, web accessibility, and interactive art.</h1>
+		</div>
+		<div class="graphic">
+			<div class="box blue"></div>
+			<div class="disk red"></div>
+			<div class="triangle blue"></div>
+		</div>
+	</header>
 
-  </script>
-  <div class="container">
-    <div id="header-holder"></div>
-    <div class="intro">
-      <p>Hi! My name is <span class="name">Seong-Hyun Ryoo.</span> I'm interested in UI/UX design and interactive art.</p>
-    </div>
-    <div class="space"></div>
-    <div class="mid-header" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">I like making websites.</div>
-    <div class="card-holder">
-      <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-        <a href="http://seongryoo.github.io/pocket-vinyl">
-          <div class="img-holder"><img src="images/loop.gif"></div>
-          <h1>Pocket Vinyl</h1>
-          <p>A moody turntable simulator</p>
-        </a>
-      </div>
-      <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-        <a href="http://seongryoo.github.io/haiku-typewriter">
-          <div class="img-holder"><img src="images/typewriter%20long.gif"></div>
-          <h1>Haiku Typewriter</h1>
-          <p>A haiku-sized typewriter toy</p>
-        </a>
-      </div>
-    </div>
-    <div class="space"></div>
-    <div class="card-holder" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-      <div class="card">
-        <a href="https://conference.georgiaclimateproject.org">
-          <div class="img-holder"><img src="images/conf.gif"></div>
-          <h1>Georgia Climate Conference</h1>
-          <p>Web design, development, and deployment</p>
-        </a>
-      </div>
-      <div class="card">
-        <a href="https://gjcl.org">
-          <div class="img-holder"><img src="images/gjcl_desktop_homepage.png"></div>
-          <h1>GJCL.org</h1>
-          <p>Redesigning the GJCL's official website</p>
-        </a>
-      </div>
-<!--
-      <div class="card">
-        <a href="/myfarmabowl">
-          <div class="img-holder"><img src="images/farmabowl_desktop_map.png"></div>
-          <h1>farmabowl.com</h1>
-          <p>An e-commerce storefront for the hungry</p>
-        </a>
-      </div>
--->
-    </div>
+	<main>
+		<div class="section contained">
+			<h2>Web Experiments</h2>
+
+			<div class="row">
+				<div class="left">
+					<img src="/img/vinyl.gif" alt="Animated painting of a spinning vinyl record underneath a sunlit window.">
+				</div>
+				<div class="right">
+					<div class="graphic-container">
+						<div class="graphic vinyl">
+							<div class="box gray"></div>
+							<div class="disk gray"></div>
+							<div class="triangle gray"></div>
+						</div>
+					</div>
+					<h3>Pocket Vinyl (2019)</h3>
+					<div class="desc">
+						<p>A moody turntable simulator made with pure HTML/CSS/JavaScript.</p>
+						<p>Original paintings animated as dynamic graphical elements.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="left">
+					<img src="/img/typewriter.gif" alt="Drawing of an antique typewriter. The typewriter is typing out a small haiku, as follows: Haiku Typewriter / Start typing to compose your / Own little comet.">
+				</div>
+				<div class="right">
+					<div class="graphic-container">
+						<div class="graphic keys">
+							<div class="disk gray"></div>
+							<div class="disk gray"></div>
+							<div class="disk gray"></div>
+							<div class="disk gray"></div>
+						</div>
+					</div>
+					<h3>Haiku Typewriter (2018)</h3>
+					<div class="desc">
+						<p>An experiment in HTML drawing and interactive soundscapes.</p>
+						<p>Original drawings animated as dynamic graphical elements.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section contained">
+			<h2>Work Experience</h2>
+
+			<div class="row">
+				<div class="left">
+					<img src="/img/gcc.png" alt="Logo of the 2019 Georgia Climate Conference. A silhouette of the state of Georgia is filled with a depiction of varied weather patterns: a bright sun rises from behind rainclouds, overlooking rolling hills.">
+				</div>
+				<div class="right">
+					<div class="graphic-container">
+						<div class="graphic vinyl">
+							<div class="box gray"></div>
+							<div class="disk gray"></div>
+							<div class="triangle gray"></div>
+						</div>
+					</div>
+					<h3>Georgia Climate Conference (2019)</h3>
+					<div class="desc">
+						<p>Full website design, implementation, and launch</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="left">
+					<div class="mobile-container blue">
+						<div class="mobile">
+							<img src="/img/ssls mobile.png" alt="A screenshot of the Smart Sea Level Sensors website as seen from a mobile phone. A collapsible banner contains the logo of the program. Following the banner is an image of windswept coastal waves with overlay text. The text describes the program, which is located in Chatham County, Georgia">
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="graphic-container">
+						<div class="graphic vinyl">
+							<div class="box gray"></div>
+							<div class="disk gray"></div>
+							<div class="triangle gray"></div>
+						</div>
+					</div>
+					<h3>Smart Sea Level Sensors (2020)</h3>
+					<div class="desc">
+						<p>WordPress development and mobile-responsive redesign</p>
+						<p>Designing for screen readers and keyboard control</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="left">
+					<div class="mobile-container red">
+						<div class="mobile">
+					<img src="/img/admin.png" alt="A screenshot of an administrative WordPress screen developed for the Global Change Program. The screen features a number of checkboxes and forms related to academic opportunites."></div></div>
+				</div>
+				<div class="right">
+					<div class="graphic-container">
+						<div class="graphic vinyl">
+							<div class="box gray"></div>
+							<div class="disk gray"></div>
+							<div class="triangle gray"></div>
+						</div>
+					</div>
+					<h3>Global Change Program (2020)</h3>
+					<div class="desc">
+						<p>WordPress and Drupal development</p>
+						<p>Front-end UI and administrative UI design</p>
+					</div>
+				</div>
+			</div>
 
 
-    <div class="space"></div>
-    <div class="mid-header" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">I also love designing video games!</div>
-    <div class="card-holder" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-      <!--
-            <div class="card">
-                <a href="arcadian.html">
-                    <div class="img-holder"><img src="images/arcade.png"></div>
-                    <h1>Arcadian Dreams</h1>
-                    <p>An interactive journey through arcade history</p>
-                </a>
-            </div>
--->
-      <div class="card">
-        <a href="vgdev.html">
-          <div class="img-holder"><img src="images/hgliding%20mockup.png"></div>
-          <h1>VGDev Contributions</h1>
-          <p>2D art and design for Georgia Tech's gamedev club</p>
-        </a>
-      </div>
-      <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-        <a href="http://cottontrek.itch.io">
-          <div class="img-holder"><img src="images/turt.gif"></div>
-          <h1>Independent Game Development</h1>
-          <p>5 years of hackathons and personal projects</p>
-        </a>
-      </div>
-    </div>
-    <div class="space"></div>
-    <div class="mid-header">
-      <a href="index.html">
-        <h1>shr.</h1>
-      </a>
-    </div>
-  </div>
+		</div>
+	</main>
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <!--important! jQuery script CDN-->
-  <script>
-    $(function() {
-      $('#header-holder').load('reuse/reuse-header.html');
-    });
-
-  </script>
-
+	<footer class="contained">
+		<p>Portfolio currently under construction. In the mean time, feel free to reach out at <a href="mailto:&#115;&#101;&#111;&#110;&#103;&#104;&#121;&#117;&#110;&#114;&#121;&#111;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#115;&#101;&#111;&#110;&#103;&#104;&#121;&#117;&#110;&#114;&#121;&#111;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>!
+	</footer>
 </body>
-
-
-
 </html>
