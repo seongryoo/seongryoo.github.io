@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+html {
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+}
+body {
+  margin: 0;
+  line-height: 1.25;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Source: A11y project */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
+}
+.contained {
+  padding: 0 2rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+footer {
+  /* background: aliceblue; */
+  padding: 4rem 0;
+}
+.section {
+  margin-bottom: 3rem;
+}
