@@ -22,7 +22,7 @@
   border-radius: 8px;
   background: rgba(243,239,235,0.6);
   padding: 1rem;
-  transition: background 0.5s, box-shadow 0.5s;
+  transition: background 1s, box-shadow 1s;
   box-shadow: -2px 16px 32px 0 #00000015;
 }
 
@@ -36,7 +36,7 @@
   height: 1rem;
   max-width: 68rem;
   margin: 0 auto;
-  border: 1px dashed rgb(245, 155, 170);
+  border: 1px dashed rgb(214, 106, 124);
   border-left: none;
   border-right: none;
 }
