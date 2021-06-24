@@ -20,15 +20,15 @@
 
 .section {
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(243,239,235,0.6);
   padding: 1rem;
   transition: background 0.5s, box-shadow 0.5s;
-  box-shadow: -2px 16px 32px 0 #eaeaea;
+  box-shadow: -2px 16px 32px 0 #00000015;
 }
 
 .section:hover {
-  background: rgba(255,255,255,0.9);
-  box-shadow: 0 6px 12px 0 #eaeaeaad;
+  background: rgba(243,239,235,0.9);
+  box-shadow: 0 6px 12px 0 #0000000d;
 }
 
 
@@ -36,6 +36,9 @@
   height: 1rem;
   max-width: 68rem;
   margin: 0 auto;
+  border: 1px dashed rgb(245, 155, 170);
+  border-left: none;
+  border-right: none;
 }
 .fake-padding .measure {
   height: 100%;
