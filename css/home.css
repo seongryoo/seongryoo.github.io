@@ -6,4 +6,16 @@
 .hero h2, .hero p {
   font-size: 2.5rem;
   margin: 1rem 0;
+  font-family: 'DM Serif Display', serif;
+}
+
+.hero p, .hero li {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.section {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  box-shadow: 0 16px 32px 0 #eaeaea;
 }
