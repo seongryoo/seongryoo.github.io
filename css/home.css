@@ -17,5 +17,11 @@
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.7);
   padding: 1rem;
-  box-shadow: 0 16px 32px 0 #eaeaea;
+  transition: background 0.5s, box-shadow 0.5s;
+  box-shadow: -2px 16px 32px 0 #eaeaea;
+}
+
+.section:hover {
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0 6px 12px 0 #eaeaeaad;
 }
