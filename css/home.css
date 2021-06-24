@@ -1,14 +1,19 @@
 .hero {
-  /* background: pink; */
+  /* background: rgb(245, 155, 170); */
   padding: 8rem 0;
 }
 
 .hero h2, .hero p {
   font-size: 2.5rem;
-  margin: 1rem 0;
   font-family: 'DM Serif Display', serif;
 }
 
+.hero h2 {
+  margin: 0;
+}
+.hero p {
+  margin: 0 0 1rem 0;
+}
 .hero p, .hero li {
   color: rgba(0, 0, 0, 0.8);
 }
@@ -24,4 +29,26 @@
 .section:hover {
   background: rgba(255,255,255,0.9);
   box-shadow: 0 6px 12px 0 #eaeaeaad;
+}
+
+
+.fake-padding {
+  height: 1rem;
+  max-width: 68rem;
+  margin: 0 auto;
+}
+.fake-padding .measure {
+  height: 100%;
+  width: 0.75rem;
+  border-top: 2px solid rgb(245, 155, 170);
+  border-bottom: 2px solid rgb(245, 155, 170);
+  box-sizing: border-box;
+  position: relative;
+}
+.fake-padding .measure:after {
+  content: '';
+  height: 100%;
+  border: 1px solid rgb(245, 155, 170);
+  position: absolute;
+  left: 45%;
 }
