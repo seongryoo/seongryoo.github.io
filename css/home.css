@@ -22,13 +22,15 @@
   border-radius: 8px;
   background: rgba(243,239,235,0.6);
   padding: 1rem;
-  transition: background 1s, box-shadow 1s;
-  box-shadow: -2px 16px 32px 0 #00000015;
+  transition: background 1s, box-shadow 1s, opacity 1s;
+  box-shadow: -3px 16px 32px 0 #00000015;
+  opacity: 0.8;
 }
 
 .section:hover {
   background: rgba(243,239,235,0.9);
-  box-shadow: 0 6px 12px 0 #0000000d;
+  box-shadow: 0 6px 12px 0 #0000000a;
+  opacity: 1;
 }
 
 
@@ -36,15 +38,18 @@
   height: 1rem;
   max-width: 68rem;
   margin: 0 auto;
-  border: 1px dashed rgb(214, 106, 124);
+  border: 1px dotted rgba(214, 106, 124, 1);
   border-left: none;
   border-right: none;
+}
+.fake-padding.no-top {
+  border-top: none;
 }
 .fake-padding .measure {
   height: 100%;
   width: 0.75rem;
-  border-top: 2px solid rgb(245, 155, 170);
-  border-bottom: 2px solid rgb(245, 155, 170);
+  border-top: 2px solid rgba(245, 155, 170, 1);
+  border-bottom: 2px solid rgba(245, 155, 170, 1);
   box-sizing: border-box;
   position: relative;
 }
