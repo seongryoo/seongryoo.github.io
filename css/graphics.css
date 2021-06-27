@@ -8,14 +8,14 @@
 }
 
 .gridline.vertical {
-  border-left: 2px dashed rgba(49, 197, 255, 0.75);
+  border-left: 2px dashed rgba(49, 197, 255, 1);
   height: 100%;
   position: fixed;
   top: 0;
 }
 
 .gridline.horizontal {
-  border-bottom: 2px dashed rgba(49, 197, 255, 0.75);
+  border-bottom: 2px dashed rgba(49, 197, 255, 1);
   height: 0rem;
   margin-top: 8rem;
   position: absolute;

@@ -8,7 +8,14 @@ body {
   line-height: 1.25;
   background: #f3efeb;
 }
+::selection {
+  background: rgb(15, 115, 155);
+  color: white;
+}
 
+a {
+  color: rgb(15, 115, 155);
+}
 
 .contained {
   padding: 0 1rem;
@@ -40,23 +47,25 @@ h1, h2 {
 h3 {
   font-weight: 700;
 }
-
+ul {
+  list-style: none;
+}
 li {
+  position: relative;
   margin-top: 1.5rem;
+}
+li:before {
+  position: absolute;
+  content: '';
+  background: rgba(0,0,0,0.1);
+  border-radius: 1rem;
+  top: 0.1rem;
+  width: 1rem;
+  height: 1rem;
+  left: -1.5rem;
 }
 p {
   margin: 0.5rem 0;
-}
-
-a {
-  font-weight: bold;
-  text-decoration: none;
-  border-bottom: 2px solid rgb(18, 105, 185);
-  color: rgb(18, 105, 185);
-}
-a:visited {
-  border-bottom: 2px solid rgb(126, 35, 65);
-  color: rgb(126, 35, 65);
 }
 
 /* Source: A11y project */

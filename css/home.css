@@ -20,7 +20,7 @@
 
 .section {
   border-radius: 8px;
-  background: rgba(243,239,235,0.6);
+  background: rgba(243,239,235,0.5);
   padding: 1rem;
   transition: background 1s, box-shadow 1s, opacity 1s;
   box-shadow: -3px 16px 32px 0 #00000015;
@@ -38,7 +38,7 @@
   height: 1rem;
   max-width: 68rem;
   margin: 0 auto;
-  border: 1px dotted rgba(214, 106, 124, 1);
+  border: 2px dotted rgba(206, 76, 98, 0.6);
   border-left: none;
   border-right: none;
 }
@@ -48,8 +48,8 @@
 .fake-padding .measure {
   height: 100%;
   width: 0.75rem;
-  border-top: 2px solid rgba(245, 155, 170, 1);
-  border-bottom: 2px solid rgba(245, 155, 170, 1);
+  border-top: 2px solid rgb(206, 76, 98);
+  border-bottom: 2px solid rgb(206, 76, 98);
   box-sizing: border-box;
   position: relative;
 }
