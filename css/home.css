@@ -73,11 +73,16 @@ li {
 
 li:before {
   content: '';
-  background: rgba(0, 171, 238, 0.1);
+  background: rgba(206, 76, 98, 0.15);
   width: 2rem;
   position: absolute;
   top: 0;
   left: -2rem;
   height: 1.25rem;
-  border: 1px dashed rgba(0, 171, 238, 0.6);
+  border: 1px dashed rgba(206, 76, 98, 0.8);
+  border-right: none;
+}
+
+footer {
+  border-top: 2px dashed rgb(0, 171, 238);
 }

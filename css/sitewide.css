@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&family=DM+Serif+Display&family=Fredoka+One&display=swap');
+@import url('fonts.css');
 html {
   font-size: 18px;
   font-family: 'Source Serif Pro', serif;
@@ -17,6 +17,14 @@ a {
   color: rgb(15, 115, 155);
   text-decoration: none;
   border-bottom: 1px solid rgb(15, 115, 155);
+  outline-offset: 6px;
+}
+a:focus {
+  transition: outline-offset 0.25s;
+  outline: 3px solid black;
+  outline-offset: 2px;
+  border: 2px solid white;
+  background: white;
 }
 
 .contained {
@@ -31,6 +39,9 @@ main {
 
 footer {
   padding: 4rem 1rem;
+  margin-top: 6rem;
+  background: rgba(243,239,235,0.75);
+  opacity: 0.8;
 }
 
 .section {
