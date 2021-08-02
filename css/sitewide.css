@@ -99,7 +99,12 @@ article p {
 
 
 li .image-text {
-  padding: 1rem 0;
+  padding: 1rem 0 0 0;
+  margin-bottom: 3rem;
+}
+
+li:nth-last-child(1) .image-text {
+  margin-bottom: 0;
 }
 
 li.image-li img {
