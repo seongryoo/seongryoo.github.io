@@ -6,7 +6,6 @@ html {
 body {
   margin: 0;
   line-height: 1.25;
-  background: #f3efeb;
 }
 ::selection {
   background: rgb(15, 115, 155);
@@ -40,7 +39,6 @@ main {
 footer {
   padding: 4rem 1rem;
   margin-top: 6rem;
-  background: rgba(243,239,235,0.75);
   opacity: 0.8;
 }
 
@@ -96,4 +94,13 @@ article ul {
 
 article p {
   margin-top: 1.5rem;
+}
+
+
+li .image-text {
+  padding: 1rem 0;
+}
+
+li.image-li img {
+  border: 1px dashed rgba(206, 76, 98, 0.8);
 }
