@@ -13,10 +13,11 @@ body {
 }
 
 a {
-  color: rgb(15, 115, 155);
+  color: rgb(1, 102, 202);
   text-decoration: none;
-  border-bottom: 1px solid rgb(15, 115, 155);
+  border-bottom: 2px solid rgb(1, 102, 202);
   outline-offset: 6px;
+  background: white;
 }
 a:focus {
   transition: outline-offset 0.25s;

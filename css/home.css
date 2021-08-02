@@ -81,6 +81,7 @@ li:before {
   height: 1.25rem;
   border: 1px dashed rgba(206, 76, 98, 0.8);
   border-right: none;
+  margin-right: 1px;
 }
 
 footer {
