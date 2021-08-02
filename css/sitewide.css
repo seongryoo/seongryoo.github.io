@@ -111,5 +111,6 @@ li:nth-last-child(1) .image-text {
 li.image-li img {
   border: 1px dashed rgba(206, 76, 98, 0.8);
   width: 100%;
+  max-width: 500px;
   height: auto;
 }
